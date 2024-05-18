@@ -21,6 +21,9 @@
             'website_attribute_image/static/src/**/*',
         ],
     },
+    'images': [
+        'static/description/banner.png',
+    ],
     'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
