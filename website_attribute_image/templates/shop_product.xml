@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="variants_image" inherit_id="website_sale.variants">
+        <xpath expr="//div[hasclass('radio_input_value')]" position="inside">
+            <img class="attr_value_img" t-if="ptav.product_attribute_value_id.website_product_detail_image"
+                t-attf-src="/web/image?model=product.attribute.value&amp;field=website_product_detail_image&amp;id=#{ptav.product_attribute_value_id.id}"/>
+        </xpath>
+    </template>
+</odoo>
