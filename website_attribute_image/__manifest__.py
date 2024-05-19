@@ -3,7 +3,7 @@
 
 {
     'name': 'Website Product Attribute Image',
-    'summary': 'Adding images to attribute values. (website attribute image)',
+    'summary': 'Adding images to attribute values. (website attribute image | product image)',
     'description': 'Adding images to attribute values',
     'version': '17.0.1.0',
     'category': 'Website',
