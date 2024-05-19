@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    'name': 'Website Attribute Image',
+    'name': 'Website Product Attribute Image',
     'summary': 'Adding images to attribute values',
     'description': 'Adding images to attribute values',
     'version': '15.0.1.0',
