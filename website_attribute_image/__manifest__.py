@@ -22,8 +22,10 @@
         ],
     },
     'images': [
-        'static/description/banner.png',
+        'static/description/banner.gif',
     ],
+    'price': '30',
+    'currency': "EUR",
     'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
