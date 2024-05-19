@@ -1,15 +1,26 @@
-.form-check {
+.custom-control-label::before {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -1.5rem;
     display: block;
-    min-height: 1.5rem;
-    padding-left: 1.5em;
-    margin-bottom: 0.125rem;
-    display: flex;
-    align-items: baseline;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: #FFFFFF;
+    border: #ADB5BD solid 1px;
 }
-.form-check .form-check-input {
-    float: left;
-    margin-left: -1.5em;
-    margin-right: 10px;
+.custom-control-label::after {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background: no-repeat 50% / 50% 50%;
 }
 .attr_value_img {
     width: 100px;
