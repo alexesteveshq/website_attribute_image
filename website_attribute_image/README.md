@@ -20,7 +20,7 @@ Features
 Usage
 -----
 
-After installation, navigate to Inventory > Configuration > Attributes. You can add images to attribute values from there, and they will be displayed on the product pages of your website.
+After installation, navigate to Inventory > Configuration > Attributes. You can add images to attribute values from there, and they will be displayed on the product pages of your website. Attribute type must be a radio button.
 
 .. image:: https://via.placeholder.com/800x400
    :alt: Usage Image
