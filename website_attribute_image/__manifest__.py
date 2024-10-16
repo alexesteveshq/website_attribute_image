@@ -20,6 +20,9 @@
         'web.assets_frontend': [
             'website_attribute_image/static/src/**/*',
         ],
+        'web.assets_backend': [
+            'website_attribute_image/static/src/css/website_attribute_image.css',
+        ],
     },
     'images': [
         'static/description/banner.gif',
