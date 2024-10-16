@@ -10,7 +10,7 @@
     'author': 'Visionee',
     'license': 'OPL-1',
     'depends': [
-        'website_sale', 'stock',
+        'website_sale', 'stock', 'sale_product_configurator',
     ],
     'data': [
         'templates/shop_product.xml',
@@ -19,6 +19,9 @@
     'assets': {
         'web.assets_frontend': [
             'website_attribute_image/static/src/**/*',
+        ],
+        'web.assets_backend': [
+            'website_attribute_image/static/src/xml/product.xml',
         ],
     },
     'images': [
