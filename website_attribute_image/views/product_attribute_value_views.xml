@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <xpath expr="//page/field[@name='value_ids']/tree/field[@name='name']"
                 position="after">
-                <field name="website_product_detail_image" attrs="{'column_invisible': [('parent.show_images', '=', False)]}"/>
+                <field name="image" attrs="{'column_invisible': [('parent.show_images', '=', False)]}"/>
             </xpath>
         </field>
     </record>
