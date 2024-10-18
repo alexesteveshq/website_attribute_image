@@ -5,12 +5,12 @@
     'name': 'Website Product Attribute Image',
     'summary': 'Adding images to attribute values. (website attribute image | product image)',
     'description': 'Adding images to attribute values',
-    'version': '17.0.1.0',
+    'version': '18.0.1.0',
     'category': 'Website',
     'author': 'Visionee',
     'license': 'OPL-1',
     'depends': [
-        'website_sale', 'stock', 'sale_product_configurator',
+        'website_sale', 'stock',
     ],
     'data': [
         'templates/shop_product.xml',
