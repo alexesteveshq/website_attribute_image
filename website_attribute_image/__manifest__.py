@@ -9,6 +9,7 @@
     'category': 'Website',
     'author': 'Visionee',
     'license': 'OPL-1',
+    'website': 'https://visionee.net',
     'depends': [
         'website_sale', 'stock', 'sale_product_configurator',
     ],
