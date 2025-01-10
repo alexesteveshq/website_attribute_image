@@ -8,6 +8,7 @@
     'version': '17.0.1.0',
     'category': 'Website',
     'author': 'Visionee',
+    'website': 'https://visionee.net',
     'license': 'OPL-1',
     'website': 'https://visionee.net',
     'depends': [
@@ -30,7 +31,6 @@
     ],
     'price': 20,
     'currency': "EUR",
-    'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
 }
